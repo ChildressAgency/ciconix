@@ -1,0 +1,205 @@
+/*
+  Theme Name: Ciconix
+  Theme Author: The Childress Agency
+  Theme Author URI: https://childressagency.com
+  Version: 1.0
+*/
+
+body{
+  font-family:Montserrat, sans-serif;
+  font-weight:500;
+  font-size:16px;
+}
+
+a{
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+
+#header-nav{
+  padding-top:10px;
+  box-shadow:0px 1px 1px #9c8f8b;
+}
+.subnav-social>.social,
+.subnav-social>.header-subnav{
+  float:right;
+}
+.social{
+  font-size:22px;
+}
+.social a{
+  color:#fff;
+}
+.social a .fa-circle{
+  color:#9c8f8b;
+}
+.social a:hover .fa-circle{
+  color:#7684b5;
+}
+.subnav-social>.social{
+  border-left:1px solid #9c8f8b;
+  padding-left:10px;
+}
+.header-subnav{
+  padding-right:10px;
+}
+.header-subnav>li>a{
+  color:#9c8f8b;
+  text-transform:uppercase;
+  font-size:.7em;
+  padding:6px 0px;
+  display:block;
+}
+.header-subnav>li>a:hover,
+.header-subnav>li>a:focus{
+  color:#7684b5;
+  text-decoration:none;
+}
+
+.header-logo>img{
+  padding-left:15px;
+  padding-right:15px;
+  float:left;
+}
+#header-nav .nav>li>a{
+  color:#000;
+  text-transform:uppercase;
+  font-size:.9em;
+}
+#header-nav .nav>li.active>a,
+#header-nav .nav>li>a:hover,
+#header-nav .nav>li>a:focus{
+  background-color:transparent;
+  font-weight:700;
+  color:#000;
+  text-decoration:none;
+}
+#header-nav .nav>li>a:after{
+  display:block;
+  content:attr(title);
+  font-weight:700;
+  height:1px;
+  color:transparent;
+  overflow:hidden;
+  visibility:hidden;
+}
+.navbar-toggle{
+  border-color:#000;
+}
+.navbar-toggle .icon-bar{
+  background-color:#000;
+}
+
+.overlay{
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  z-index:1;
+}
+#hero{
+  position:relative;
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top:80px;
+  padding-bottom:60px;
+}
+#hero>.overlay{
+  background-image:url(images/overlay-with-icon.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:left top;
+}
+#hero>.container{
+  z-index:2;
+  position:relative;
+}
+.hero-caption{
+  color:#fff;
+  text-align:right;
+}
+.hero-caption h1{
+  font-size:3.7em;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:6px;
+}
+.hero-caption p{
+  font-size:2.2em;
+  line-height:1.2em;
+}
+
+
+@media (max-width:768px){
+  .subnav-social{
+    border-top:1px solid #9c8f8b;
+    border-bottom:1px solid #9c8f8b;
+  }
+  .subnav-social>.social,
+  .subnav-social>.header-subnav{
+    float:none;
+  }
+  .header-subnav.list-inline>li{
+    display:block;
+  }
+  .subnav-social>.social{
+    border-left:none;
+    padding-left:0;
+    padding-top:20px;
+  }
+  .subnav-social>.header-subnav{
+    padding-top:15px;
+  }
+  
+}
+@media (min-width:768px){
+  .container-sm-height{
+    display:table;
+  }
+  .row-sm-height{
+    display:table-row;
+  }
+  .col-sm-height{
+    display:table-cell;
+    float:none;
+    vertical-align:middle;
+  }
+  .container-fluid.container-sm-height{
+    width:100%;
+  }
+}
+@media (max-width:990px){
+  .navbar-header{
+    float:none;
+  }
+  .navbar-right{
+    float:none !important;
+  }
+  .navbar-toggle{
+    display:block;
+  }
+  .navbar-collapse.collapse{
+    display:none !important;
+  }
+  .navbar-nav{
+    float:none !important;
+  }
+  .navbar-nav>li{
+    float:none;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  #header-nav{
+    padding-bottom:15px;
+  }
+  .subnav-social{
+    margin-top:15px;
+  }
+}
+@media (min-width:991px){
+  #header-nav .navbar-nav{
+    margin-top:-20px;
+  }
+}
