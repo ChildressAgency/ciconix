@@ -557,6 +557,9 @@ footer{
   .specialty-area .caption-wrapper{
     min-height:160px;
   }
+  .differentiator h3{
+    font-size:27px;
+  }
 }
 @media (min-width:768px){
   .container-sm-height{
