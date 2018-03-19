@@ -160,6 +160,9 @@ input[type="submit"]{
   color:#fff;
   text-align:right;
 }
+.hero-caption h1{
+  margin-bottom:40px;
+}
 .hero-caption p{
   font-size:2.2em;
   line-height:1.2em;
@@ -255,14 +258,14 @@ input[type="submit"]{
   font-size:36px;
 }
 
-#differentiators h2{
+#differentiators-short h2{
   background-color:#7684b5;
   color:#fff;
   text-align:center;
   margin-bottom:0;
   padding:20px 15px;
 }
-#differentiators .col-sm-6{
+#differentiators-short .col-sm-6{
   padding-left:0;
   padding-right:0;
 }
@@ -317,6 +320,111 @@ blockquote{
   padding-top:60px;
   padding-bottom:40px;
   text-align:center;
+}
+
+#at-a-glance{
+  padding-top:25px;
+  padding-bottom:25px;
+  text-align:center;
+}
+.glance{
+  position:relative;
+  padding-top:95px;
+  margin-top:40px;
+}
+.glance h3{
+  font-weight:700;
+}
+.glance:before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  background-image:url(images/sprites.png);
+  background-repeat:no-repeat;
+}
+#founded.glance:before{
+  background-position:0px 0px;
+  height:96px;
+  width:101px;
+}
+#headquarters.glance:before{
+  background-position:-116px 0px;
+  height:89px;
+  width:168px;
+}
+#certified.glance:before{
+  background-position:-295px 0px;
+  height:79px;
+  width:223px;
+}
+
+#codes{
+  background-color:#525252;
+  color:#9c8f8b;
+  font-size:24px;
+  font-weight:700;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+#codes .codes{
+  max-width:750px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#differentiators{
+  padding-top:25px;
+  padding-bottom:40px;
+  background-color:#7684b5;
+  color:#fff;
+}
+#differentiators h2{
+  text-align:center;
+  font-weight:700;
+}
+.differentiator{
+  margin-top:80px;
+}
+.differentiator h3{
+  position:relative;
+  font-size:40px;
+  padding-left:130px;
+  margin-top:0;
+  margin-bottom:80px;
+}
+.differentiator h3:before{
+  content:"";
+  position:absolute;
+  top:50%;
+  left:0;
+  background-image:url(images/sprites.png);
+  background-repeat:no-repeat;
+  -webkit-transform:translate(0, -50%);
+  transform:translate(0, -50%);
+}
+#virtual-health.differentiator h3:before{
+  background-position:0px -110px;
+  height:109px;
+  width:100px;
+}
+#research-ta.differentiator h3:before{
+  background-position:-120px -110px;
+  height:116px;
+  width:98px;
+}
+#training-advisory.differentiator h3:before{
+  background-position:-240px -120px;
+  height:98px;
+  width:122px;
+}
+#healthcare-ta.differentiator h3:before{
+  background-position:-380px -120px;
+  height:92px;
+  width:90px;
 }
 
 #newsletter{
