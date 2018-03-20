@@ -501,7 +501,33 @@ blockquote{
   text-transform:uppercase;
 }
 
-
+.contact-info{
+  margin-top:40px;
+}
+.contact-info h3{
+  margin-top:0;
+  font-weight:700;
+}
+.contact-info p{
+  margin-bottom:40px;
+}
+.contact-form{
+  text-align:center;
+  margin-top:40px;
+}
+.contact-form .btn-main{
+  margin-top:10px;
+  font-size:20px;
+}
+.contact-form .form-control{
+  border-color:#7684b5;
+  border-radius:0;
+}
+.contact-form+.social{
+  font-size:40px;
+  text-align:center;
+  margin-top:80px;
+}
 
 #newsletter{
   background-color:#7684b5;
