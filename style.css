@@ -381,6 +381,11 @@ blockquote{
   padding-bottom:40px;
   background-color:#7684b5;
   color:#fff;
+  position:relative;
+}
+#differentiators article{
+  position:relative;
+  z-index:2;
 }
 #differentiators h2{
   text-align:center;
@@ -425,6 +430,15 @@ blockquote{
   background-position:-380px -120px;
   height:92px;
   width:90px;
+}
+#differentiators .background-logo{
+  position:absolute;
+  background-image:url(images/icon-bg.png);
+  background-repeat:no-repeat;
+  top:95px;
+  height:100%;
+  width:100%;
+  z-index:1;
 }
 
 #main{
@@ -611,7 +625,7 @@ footer{
 }
 
 
-@media (max-width:768px){
+@media (max-width:767px){
   h1{
     font-size:3.0em;
   }
@@ -661,6 +675,9 @@ footer{
   }
   .differentiator h3{
     font-size:27px;
+  }
+  #differentiators .background-logo{
+    top:150px;
   }
 }
 @media (min-width:768px){
