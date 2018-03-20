@@ -543,6 +543,41 @@ blockquote{
   margin-top:80px;
 }
 
+.member-image{
+  position:relative;
+  max-width:315px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.member-image.shadow-link{
+  box-shadow:0px 23px 0px rgba(0,0,0,.7);
+}
+.member-name-title{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  color:#fff;
+  background-color:rgba(0,0,0,.5);
+  text-align:center;
+  padding:10px 20px 0px 20px;
+}
+.member-name-title>h4{
+  margin-top:0;
+  margin-bottom:0;
+  font-weight:700;
+}
+.member-bio{
+  /*margin-top:20px;*/
+}
+.member-bio-inner{
+  background-color:#7684b5;
+  color:#fff;
+  padding:25px 8%;
+}
+
 #newsletter{
   background-color:#7684b5;
   padding-top:60px;
