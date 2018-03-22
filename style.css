@@ -145,6 +145,7 @@ input[type="submit"]{
   background-size:cover;
   padding-top:80px;
   padding-bottom:60px;
+  min-height:615px;
 }
 #hero>.overlay{
   background-image:url(images/overlay-with-icon.png);

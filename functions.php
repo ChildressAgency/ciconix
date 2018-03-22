@@ -278,6 +278,30 @@ class wp_bootstrap_navwalker extends Walker_Nav_Menu {
 	}
 }
 
+function ciconix_header_fallback_menu(){ ?>
+  <ul class="nav navbar-nav navbar-right">
+    <li<?php if(is_page('about')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('about'); ?>" title="About">About</a></li>
+    <li<?php if(is_page('services')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('services'); ?>" title="Services">Services</a></li>
+    <li<?php if(is_page('leadership')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('leadership'); ?>" title="Leadership">Leadership</a></li>
+    <li<?php if(is_page('experience')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('experience'); ?>" title="Experience">Experience</a></li>
+    <li<?php if(is_page('research-and-program-resources')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('research-and-program-resources'); ?>" title="Research and Program Resources">Research and Program Resources</a></li>
+    <li<?php if(is_page('contact')){ echo ' class="active"'; } ?>><a href="<?php echo home_url('contact'); ?>" title="Contact">Contact</a></li>
+  </ul>
+<?php }
+
+function ciconix_footer_fallback_menu(){ ?>
+  <div id="footer-nav">
+    <ul class="nav nav-justified">
+      <li><a href="<?php echo home_url('about'); ?>">About</a></li>
+      <li><a href="<?php echo home_url('services'); ?>">Services</a></li>
+      <li><a href="<?php echo home_url('leadership'); ?>">Leadership</a></li>
+      <li><a href="<?php echo home_url('experience'); ?>">Experience</a></li>
+      <li><a href="<?php echo home_url('research-and-program-resources'); ?>">Research and Program Resources</a></li>
+      <li><a href="<?php echo home_url('contact'); ?>">Contact</a></li>
+    </ul>
+  </div>
+<?php }
+
 if(function_exists('acf_add_options_page')){
   acf_add_options_page(array(
     'page_title' => 'General Site Settings',
