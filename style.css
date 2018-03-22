@@ -362,21 +362,24 @@ blockquote{
   width:223px;
 }
 
-#codes{
+.call-out{
   background-color:#525252;
-  color:#9c8f8b;
+  color:#fff;
   font-size:24px;
   font-weight:700;
   padding-top:25px;
   padding-bottom:25px;
+  text-align:center;
 }
-#codes .codes{
+.call-out>.container{
   max-width:750px;
-  margin-left:auto;
-  margin-right:auto;
+}
+#codes.call-out{
+  color:#9c8f8b;
 }
 
-#differentiators{
+#differentiators,
+#services{
   padding-top:25px;
   padding-bottom:40px;
   background-color:#7684b5;
@@ -391,17 +394,17 @@ blockquote{
   text-align:center;
   font-weight:700;
 }
-.differentiator{
+.two-sided{
   margin-top:80px;
 }
-.differentiator h3{
+.icon-title h3{
   position:relative;
   font-size:40px;
   padding-left:130px;
   margin-top:0;
   margin-bottom:80px;
 }
-.differentiator h3:before{
+.icon-title h3:before{
   content:"";
   position:absolute;
   top:50%;
@@ -411,27 +414,48 @@ blockquote{
   -webkit-transform:translate(0, -50%);
   transform:translate(0, -50%);
 }
-#virtual-health.differentiator h3:before{
+#virtual-health.icon-title h3:before{
   background-position:0px -110px;
   height:109px;
   width:100px;
 }
-#research-ta.differentiator h3:before{
+#research-ta.icon-title h3:before{
   background-position:-120px -110px;
   height:116px;
   width:98px;
 }
-#training-advisory.differentiator h3:before{
+#training-advisory.icon-title h3:before{
   background-position:-240px -120px;
   height:98px;
   width:122px;
 }
-#healthcare-ta.differentiator h3:before{
+#healthcare-ta.icon-title h3:before{
   background-position:-380px -120px;
   height:92px;
   width:90px;
 }
-#differentiators .background-logo{
+#program-governance.icon-title h3:before{
+  background-position:0px -240px;
+  height:125px;
+  width:88px;
+}
+#business-advisory.icon-title h3:before{
+  background-position:-111px -262px;
+  height:81px;
+  width:124px;
+}
+#information-management.icon-title h3:before{
+  background-position:-241px -258px;
+  height:90px;
+  width:120px;
+}
+#staff-augmentation.icon-title h3:before{
+  background-position:-380px -252px;
+  height:101px;
+  width:99px;
+}
+#differentiators .background-logo,
+#services .background-logo{
   position:absolute;
   background-image:url(images/icon-bg.png);
   background-repeat:no-repeat;
@@ -439,6 +463,16 @@ blockquote{
   height:100%;
   width:100%;
   z-index:1;
+}
+#services .background-logo{
+  top:15px;
+}
+#services section{
+  position:relative;
+  z-index:2;
+}
+#services .call-out{
+  margin-top:40px;
 }
 
 #main{
