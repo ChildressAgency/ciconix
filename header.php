@@ -59,7 +59,7 @@
             'fallback_cb' => 'ciconix_header_fallback_menu',
             'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
             'depth' => 2,
-            'walker' => new wp_bootstrap_navwalker();
+            'walker' => new wp_bootstrap_navwalker()
           );
           wp_nav_menu($header_nav_args); ?>
 
@@ -87,7 +87,7 @@
                 $blog_page = get_page_by_path('blog');
                 $blog_page_id = $blog_page->ID;
 
-                $page_subtitle = get_field('page_subtitle', $blog_page_id);
+                $page_subtitle = get_field('hero_caption', $blog_page_id);
               } 
               elseif(is_category($category)){
                 $categories = get_the_category();
@@ -95,8 +95,8 @@
                 $page_subtitle = category_description($categories[0]->term_id);
               }
               else{
-                $page_title = get_field('page_title') ? get_field('page_title') : get_the_title();
-                $page_subtitle = get_field('page_subtitle');
+                $page_title = get_field('hero_title') ? get_field('hero_title') : get_the_title();
+                $page_subtitle = get_field('hero_caption');
               } ?>
             <h1><?php echo $page_title; ?></h1>
             <?php if($page_subtitle){ echo '<p>' . $page_subtitle . '</p>'; } ?>

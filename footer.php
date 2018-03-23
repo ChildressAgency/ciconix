@@ -9,7 +9,7 @@
           'menu' => '',
           'container' => 'div',
           'container_id' => 'footer-nav',
-          'container_class', => '',
+          'container_class' => '',
           'menu_class' => 'nav nav-justified',
           'menu_id' => '',
           'echo' => true,

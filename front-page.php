@@ -116,7 +116,7 @@
           <?php the_field('newsletter_section_content'); ?>
         </div>
         <div class="col-sm-6 col-sm-height">
-          <?php echo do_shortcode('[newsletter signup form]'); ?>
+          <?php echo do_shortcode('[contact-form-7 id="31" title="Newsletter Signup"]'); ?>
         </div>
       </div>
     </div>
