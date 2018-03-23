@@ -378,6 +378,10 @@ blockquote{
 #codes.call-out{
   color:#9c8f8b;
 }
+#codes ul{
+  list-style:none;
+  padding-left:0;
+}
 
 #differentiators,
 #services{
