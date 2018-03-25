@@ -382,6 +382,9 @@ blockquote{
   list-style:none;
   padding-left:0;
 }
+#codes p{
+  margin-bottom:0;
+}
 
 #differentiators,
 #services{

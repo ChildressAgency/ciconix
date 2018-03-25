@@ -46,7 +46,7 @@
                       <div id="<?php echo $member_slug; ?>" class="member-bio collapse hidden-xs <?php echo $member_slug; ?>">
                         <div class="member-bio-inner">
                           <hr />
-                          <?php echo $team_member['bio']; ?>
+                          <?php echo $team_member['member_bio']; ?>
                         </div>
                       </div>
                     </div>
