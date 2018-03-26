@@ -18,7 +18,7 @@
       <div class="container container-sm-height">
         <div class="row row-sm-height">
           <div class="col-sm-6 col-sm-push-6 col-sm-height">
-            <img src="<?php the-field('program_governance_section_image'); ?>" class="img-responsive center-block" alt="" />
+            <img src="<?php the_field('program_governance_section_image'); ?>" class="img-responsive center-block" alt="" />
           </div>
           <div class="col-sm-6 col-sm-pull-6 col-sm-height">
             <?php the_field('program_governance_section_content'); ?>

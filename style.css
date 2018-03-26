@@ -175,7 +175,7 @@ input[type="submit"]{
 .text-side{
   max-width:500px;
   margin-left:auto;
-  margin-right:0;
+  margin-right:auto;
   color:#fff;
   padding-top:60px;
   padding-bottom:60px;
@@ -487,6 +487,9 @@ blockquote{
   padding-top:40px;
   padding-bottom:40px;
 }
+#main hr{
+  border-color:#7684b5;
+}
 .blog-summary{
   margin-top:40px;
 }
@@ -579,7 +582,11 @@ blockquote{
   border-color:#7684b5;
   border-radius:0;
 }
-.contact-form+.social{
+#contact{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+#contact .social{
   font-size:40px;
   text-align:center;
   margin-top:80px;
@@ -744,7 +751,6 @@ footer{
     font-size:1.4em;
   }
   .text-side{
-    margin-right:auto;
     padding-left:15px;
     padding-right:15px;
   }

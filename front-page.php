@@ -4,7 +4,7 @@
       <div class="row row-sm-height">
         <div class="col-sm-6 col-sm-height">
           <div class="text-side">
-            <?php the_field('mission-statement'); ?>
+            <?php the_field('mission_statement'); ?>
             <a href="<?php echo home_url('services'); ?>" class="btn-main">Services</a>
           </div>
         </div>

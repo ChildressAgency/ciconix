@@ -52,7 +52,7 @@
                     </div>
                   </div>
                 <?php endforeach; ?>
-            <?php $i++; endfor; ?>
+            <?php endfor; ?>
           </div>
       <?php endif; ?>
     </div>

@@ -89,7 +89,7 @@
 
                 $page_subtitle = get_field('hero_caption', $blog_page_id);
               } 
-              elseif(is_category($category)){
+              elseif(is_category()){
                 $categories = get_the_category();
                 $page_title = esc_html($categories[0]->name);
                 $page_subtitle = category_description($categories[0]->term_id);

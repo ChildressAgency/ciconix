@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <main id="main">
+  <main id="contact">
     <div class="container">
       <?php
         if(have_posts()){
@@ -16,9 +16,9 @@
             <p>CICONIX, LLC<br /><?php the_field('street_address', 'option'); ?><br /><?php the_field('street_address_2', 'option'); ?><br /><?php the_field('city_state_zip', 'option'); ?></p>
             <h3>Email Us</h3>
             <p><?php the_field('email', 'option'); ?></p>
-            <p>
+            <div class="embed-responsive embed-responsive-16by9">
               <?php the_field('google_map_embed_code', 'option'); ?>
-            </p>
+            </div>
           </div>
         </div>
         <div class="col-sm-6">
