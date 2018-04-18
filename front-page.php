@@ -116,9 +116,16 @@
           <?php the_field('newsletter_section_content'); ?>
         </div>
         <div class="col-sm-6 col-sm-height">
-          <?php echo do_shortcode('[contact-form-7 id="31" title="Newsletter Signup"]'); ?>
+          <?php //echo do_shortcode('[contact-form-7 id="31" title="Newsletter Signup"]'); ?>
+          <!-- Begin Constant Contact Inline Form Code -->
+            <div class="ctct-inline-form" data-form-id="10c40535-ef2a-45fd-a31f-20c252491797"></div>
+          <!-- End Constant Contact Inline Form Code -->
         </div>
       </div>
     </div>
   </section>
+  <!-- Begin Constant Contact Active Forms -->
+    <script> var _ctct_m = "21ec7ecd97fcec981fb06f6a27274bba"; </script>
+    <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+  <!-- End Constant Contact Active Forms -->
 <?php get_footer(); ?>

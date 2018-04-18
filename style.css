@@ -645,6 +645,58 @@ blockquote{
   font-size:1em;
   margin-top:0;
 }
+#newsletter .ctct-form-embed.form_0 .ctct-form-defaults{
+  background-color:transparent;
+  font-family:Montserrat, sans-serif;
+  max-width:415px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#newsletter .ctct-form-embed.form_0 .ctct-form-defaults .ctct-form-header{
+  font-size:18px;
+  margin-bottom:15px;
+  font-weight:normal;
+  font-family:inherit;
+}
+#newsletter div.ctct-form-embed form.ctct-form-custom label.ctct-form-label{
+  color:#fff;
+  font-weight:normal;
+  margin-bottom:3px;
+  font-size:14px;
+}
+#newsletter div.ctct-form-embed form.ctct-form-custom .ctct-form-required:before{
+  color:#fff;
+}
+#newsletter div.ctct-form-embed form.ctct-form-custom button.ctct-form-button{
+  background-color:#525252;
+  display:inline-block;
+  width:auto;
+  padding:10px 25px;
+  border-radius:26px;
+  font-weight:500;
+  border:none;
+}
+#newsletter div.ctct-form-embed form.ctct-form-custom button.ctct-form-button:hover,
+#newsletter div.ctct-form-embed form.ctct-form-custom button.ctct-form-button:focus{
+  color:#7684b5;
+  background-color:#fff;
+}
+#newsletter div.ctct-form-embed form.ctct-form-custom input.ctct-form-element{
+  border-radius:0;
+  border:none;
+  height:auto;
+  padding:5px 10px;
+}
+#newsletter div.ctct-form-embed form.ctct-form-custom div.ctct-form-field{
+  margin-bottom:15px;
+}
+#newsletter .ctct-form-embed.form_0 .ctct-form-defaults .ctct-form-footer .ctct-form-footer-link{
+  color:#fff;
+  font-size:18px;
+}
+#newsletter .ctct-form-embed.form_0 .ctct-form-defaults .ctct-form-footer .ctct-form-footer-link:hover{
+  color:#525252;
+}
 .form-newsletter{
   max-width:415px;
   margin-left:auto;
